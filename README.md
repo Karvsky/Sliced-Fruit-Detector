@@ -26,11 +26,9 @@ The confusion matrix below confirms the model's high effectiveness in distinguis
 ### Phase 1: Baseline Detection
 Early tests focused on the stability of class recognition by the YOLOv11 model without implemented point-counting logic.
 
-| State: Not Cutting | State: Cutting |
-| :---: | :---: |
-| <img width="796" height="598" alt="Zrzut ekranu 2026-03-21 230217" src="https://github.com/user-attachments/assets/3bf5fb25-a1c1-40d9-8ba9-1f4b43f7cb7a" />
- | <img width="792" height="601" alt="Zrzut ekranu 2026-03-21 230526" src="https://github.com/user-attachments/assets/58ea90d6-1f32-4dd0-a2a5-2a6b0ae90fb1" />
- |
+<img width="796" height="598" alt="Zrzut ekranu 2026-03-21 230217" src="https://github.com/user-attachments/assets/3bf5fb25-a1c1-40d9-8ba9-1f4b43f7cb7a" />
+ <img width="792" height="601" alt="Zrzut ekranu 2026-03-21 230526" src="https://github.com/user-attachments/assets/58ea90d6-1f32-4dd0-a2a5-2a6b0ae90fb1" />
+
 
 ### Phase 2: Cutting Recognition Logic Implementation
 A key element of the project was creating a robust, error-resistant counter. The system relies on state change verification – a point is awarded only upon detecting a transition from a whole object (`not cutting`) to a cut one (`cutting`).
