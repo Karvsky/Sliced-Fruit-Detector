@@ -19,7 +19,7 @@ Unlike ready-made solutions available online, **I prepared the entire training d
 
 The confusion matrix below confirms the model's high effectiveness in distinguishing the state of a whole fruit from the moment it is cut:
 
-(<img width="3000" height="2250" alt="image" src="https://github.com/user-attachments/assets/8e56fd70-0ab4-4044-aae1-9dda40f1004d" />)
+<img width="3000" height="2250" alt="image" src="https://github.com/user-attachments/assets/8e56fd70-0ab4-4044-aae1-9dda40f1004d" />
 
 ## 🛠️ Project Evolution and Development
 
@@ -28,7 +28,9 @@ Early tests focused on the stability of class recognition by the YOLOv11 model w
 
 | State: Not Cutting | State: Cutting |
 | :---: | :---: |
-| ![No Cutting without counter](docs/faza1_no_cutting.jpg) | ![Cutting without counter](docs/faza1_cutting.jpg) |
+| <img width="796" height="598" alt="Zrzut ekranu 2026-03-21 230217" src="https://github.com/user-attachments/assets/3bf5fb25-a1c1-40d9-8ba9-1f4b43f7cb7a" />
+ | <img width="792" height="601" alt="Zrzut ekranu 2026-03-21 230526" src="https://github.com/user-attachments/assets/58ea90d6-1f32-4dd0-a2a5-2a6b0ae90fb1" />
+ |
 
 ### Phase 2: Cutting Recognition Logic Implementation
 A key element of the project was creating a robust, error-resistant counter. The system relies on state change verification – a point is awarded only upon detecting a transition from a whole object (`not cutting`) to a cut one (`cutting`).
