@@ -19,7 +19,7 @@ Unlike ready-made solutions available online, **I prepared the entire training d
 
 The confusion matrix below confirms the model's high effectiveness in distinguishing the state of a whole fruit from the moment it is cut:
 
-![Confusion Matrix](<img width="3000" height="2250" alt="image" src="https://github.com/user-attachments/assets/8e56fd70-0ab4-4044-aae1-9dda40f1004d" />)
+(<img width="3000" height="2250" alt="image" src="https://github.com/user-attachments/assets/8e56fd70-0ab4-4044-aae1-9dda40f1004d" />)
 
 ## 🛠️ Project Evolution and Development
 
