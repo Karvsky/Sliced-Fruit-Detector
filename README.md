@@ -43,6 +43,7 @@ if 0 in classes:
 if max_cutting_conf > 0.60 and self.pom1 == 1:
     self.counter += 1
     self.pom1 = 0
-python```
+```
+
 ###Phase 3: System Integrated with UI
 The final version of the project features a scaled-down point counter in the upper right corner of the screen and optimized interface readability.
