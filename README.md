@@ -45,5 +45,18 @@ if max_cutting_conf > 0.60 and self.pom1 == 1:
     self.pom1 = 0
 ```
 
-###Phase 3: System Integrated with UI
+### Phase 3: System Integrated with UI
 The final version of the project features a scaled-down point counter in the upper right corner of the screen and optimized interface readability.
+<img width="795" height="603" alt="Zrzut ekranu 2026-03-22 133233" src="https://github.com/user-attachments/assets/1b0c9733-23d0-4443-96d5-ecda7b7b895d" />
+<img width="796" height="597" alt="Zrzut ekranu 2026-03-22 132614" src="https://github.com/user-attachments/assets/4af45394-2d09-4bbb-bd8b-90495e568a90" />
+
+## 🧰 Technologies & Libraries Used
+
+This project leverages the following tools and frameworks to ensure real-time performance and accurate detection:
+
+* **Python 3.x**: The core programming language used for the entire logic.
+* **Ultralytics (YOLOv11)**: The state-of-the-art framework used for training the custom dataset and running the object detection model.
+* **OpenCV (`cv2`)**: Handles capturing the video stream from the camera, frame processing, and drawing the graphical user interface (bounding boxes, text, trackbars).
+* **PyTorch & CUDA**: Enables GPU acceleration (NVIDIA RTX series) to ensure smooth, lag-free inference during gameplay.
+
+
